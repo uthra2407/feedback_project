@@ -1,0 +1,13 @@
+id,name,email,department,course,feedback_curriculum,feedback_delivery,feedback_methods,feedback_resources,feedback_evaluation,feedback_support,feedback_overall
+1,Sri,sri@gmail.com,CS,MCA,Good,Good,Good,Good,Good,Good,Good
+2,Uthra,Uthra@gmail.com,CS,MCA,Bad,Bad,Need Improvement,Good,Good,Good,Need to improve a lot
+3,Uthra,Uthra@gmail.com,CS,MCA,Bad,Bad,Bad,Good,Good,Good,Need more improvement
+4,Uthra,Uthra@gmail.com,CS,MCA,bad,bad,bad,bad,bad,Good,OK
+5,Uthra,Uthra@gmail.com,CS,MCA,Good,Good,Good,Good,bad,bad,Need Improvement
+6,Uthra,Uthra@gmail.com,CS,MCA,Good,Good,Good,Good,bad,bad,bad
+7,Uthra,Uthra@gmail.com,CS,MCA,Good,Good,Good,bad,bad,bad,good
+8,Sri,sri@gmail.com,CS,MCA,good,good,good,good,good,good,good
+9,sriThiripura,srithiripura@gmail.com,CS,MCA,bad,bad,bad,bad,bad,bad,bad
+10,sriThiripura,srithiripura@gmail.com,CS,MCA,Good,Need more Improvement,Good,Bad,Need More Improvement,Need More Improvement,Need More Improvement
+11,sriThiripura,srithiripura@gmail.com,CS,MCA,"Teaching methods are good, but there is room for improvement","Course content is decent, but some topics need more depth","Exams are generally fair, though a bit challenging",Lab work is satisfactory but could be more interactive,Library facilities are good but need more modern resources,Extracurricular activities are engaging and well-organized,Good but need more improvement
+12,Subbu Laxmi,subbulaxmi@gmail.com,CS,MCA,"Yes, it's very helpful.",Not effective,Need some lab facilities,No,Yes,Students are very helpful.,Very well.

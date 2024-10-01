@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Feedbacks</title>
+        <!-- Load static files -->
+        {% load static %}
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    </head>
+<body>
+<div class="container">
+    <h2>Student Feedback Form</h2>
+    <form method="post" action="{% url 'feedback:submit_feedback' %}">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="name">Name</label><br>
+            {{ form.name }}
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label><br>
+            {{ form.email }}
+        </div>
+        <div class="form-group">
+            <label for="department">Department</label><br>
+            {{ form.department }}
+        </div>
+        <div class="form-group">
+            <label for="course">Course</label><br>
+            {{ form.course }}
+        </div>
+        <div class="form-group">
+            <label for="feedback_curriculum">How well is the curriculum designed to meet academic and career goals?</label>
+            {{ form.feedback_curriculum }}
+        </div>
+        <div class="form-group">
+            <label for="feedback_delivery">How effectively is the curriculum delivered in your courses?</label>
+            {{ form.feedback_delivery }}
+        </div>
+        <div class="form-group">
+            <label for="feedback_methods">Tell about the overall effectiveness of the teaching methods and resources used.</label>
+            {{ form.feedback_methods }}
+        </div>
+        <div class="form-group">
+            <label for="feedback_resources">Provide feedback on the adequacy of teaching methods, resources, and faculty qualifications.</label>
+            {{ form.feedback_resources }}
+        </div>
+        <div class="form-group">
+            <label for="feedback_evaluation">How effective and fair do you find the evaluation methods used in your courses? Please share your experience with the transparency and consistency of the assessment.</label>
+            {{ form.feedback_evaluation }}
+        </div>
+        <div class="form-group">
+            <label for="feedback_support">How satisfactory are the student support services and resources provided by the institution?</label>
+            {{ form.feedback_support }}
+        </div>
+        <div class="form-group">
+            <label for="feedback_overall">How well do you feel the curriculum supports your achievement of learning outcomes?</label>
+            {{ form.feedback_overall }}
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+    <div class="text-center" style="margin-top: 20px;">
+        <a href="/admin" class="btn btn-primary">Go Back</a>
+    </div>
+</div>
+</body>
+</html>
